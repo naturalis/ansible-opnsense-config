@@ -4,7 +4,7 @@ Used in [network](https://github.com/naturalis/network/) repo.
 
 Runnable with:
 ```bash
-ansible-playbook playbooks/opnsense_config.yml -i environments/prod --ask-vault-pass
+ansible-playbook playbooks/opnsense_config.yml -i environments/prod
 ```
 
 ## Requirements
@@ -16,7 +16,6 @@ config.xml file placed in files/
 Available variables are listed below, along with default values (see `defaults/main.yml`):
 
     ..
-
 
 ## Dependencies
 
