@@ -1,17 +1,21 @@
-# Ansible Role: OPNSense ..
+# Ansible Role: OPNSense config
 
-..
+Used in [network](https://github.com/naturalis/network/) repo.
+
+Runnable with:
+```bash
+ansible-playbook playbooks/opnsense_config.yml -i environments/prod --ask-vault-pass
+```
 
 ## Requirements
 
-None.
+config.xml file placed in files/
 
 ## Role Variables
 
 Available variables are listed below, along with default values (see `defaults/main.yml`):
 
     ..
-
 
 
 ## Dependencies
@@ -22,7 +26,7 @@ None.
 
     - hosts: firewall
       roles:
-        - { role: test }
+        - ansible-role-opnsense-config
 
 ## License
 
