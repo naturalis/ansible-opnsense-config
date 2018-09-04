@@ -8,9 +8,10 @@ galaxy_info:
   license: Apache2
   min_ansible_version: 2.5
   platforms:
-  - name: Cumulus Linux
+  - name: FreeBSD
     versions:
     - all
   galaxy_tags:
-    - cumulus
-    - switches
+    - opnsense
+    - firewall
+    - freebsd
