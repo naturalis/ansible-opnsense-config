@@ -25,7 +25,7 @@ None.
 
     - hosts: firewall
       roles:
-        - ansible-role-opnsense-config
+        - ansible-opnsense-config
 
 ## License
 
